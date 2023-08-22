@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me, Snow White and the Seven Dwarfs</title>
+    <link rel="stylesheet" href="css\style.css">
+
+  </head>
+  <body>
+<!--used photoshop to optimize images so that they are smaller -->
+  <body class="background">
+      
+    <div>
+      <!--below is side bar for main menu  this has been created with a mix of HTML, CSS and javascript 
+      the creater did seek help with creating this from W3schools and has been refs in footer andwill be in the report also
+    this was a change from the orginaldesign due to the feed back recived about the fixed menu 
+  taking up to much room on the mobile making the story less enjoyable-->
+      <button class="openbtn" onclick="openNav()"><Strong>☰</Strong></button>  
+      <!--below buttons for navagation menu these are from the orginal design and then been adapted to go unto the side menu -->   
+      <nav id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a class="tabs" href="1Home.html"><strong>Home</strong></a> <!-- made bold-->
+        <a class="tabs" href="2Chapter 1.html"><strong>Chapter 1</strong></a>
+        <a class="tabs" href="3Chapter 2.html"><strong>Chapter 2</strong></a>
+        <a class="tabs" href="4Chapter 3.html"><strong>Chapter 3</strong></a>
+        <a class="tabs" href="5Chapter 4.html"><strong>Chapter 4</strong></a>
+        <a class="tabs" href="6Chapter 5.html"><strong>Chapter 5</strong></a>
+      </nav>
+      <!--the creator used a imgae as the logo, she felt this would make the story look more profectional -->
+        <h1><img src="image\TitleSW.png" alt="titleSW"></h1>
+    </div>
+           
+<section class="Bodytext">
+<!--H1 has been used for all headers as the same font used in the logo is also attached to h1
+to blend both styles together-->
+<h1>Me, Snow White <br> and the Seven Dwarfs</h1>
+
+<!--the the main body is in a overlock front this makes it more readable for all -->
+<p>
+    Welcome to the new adventure with Snow White and the Seven Dwarfs, <br>
+    you can be part of the journey to help Snow White defeat the Evil Queen 
+    and Save the Day.
+    <br><br>
+    However, before we begin, there are some things you should know,
+    <br><br>
+    below is the area you need to type your name into to become part of this story, 
+    this can be found on each Chapter. Give it a go now.
+    <br>
+    put your name in below and see the name change to your own before your eyes.
+    <br>
+  </p>
+<div>
+  <!--below is the beginnings of the coding for the name changer this was put together using html, and javascript that was 
+  sourced by ChatGPT this has been referance in foorter and report, the creater tried many ways to get the code to work herself but nothing worked 
+in the end help was needed there hasnt been a change to the html and the javascript side as every 
+ attempt to adapt it resulting is the code not fuctioning, the styles for this function however was put together 
+by the creater,
+
+the name changer was crucial to the stories design as the heart of this story is that the reader 
+is included into the story which would help them enjoy it more-->
+    <input class="wordchange" type="text" id="newWord" placeholder="Entre Name">
+    <button class="button3" id="submitBtn">Submit</button>
+</div>
+
+the name changer was crucial to the stories design as it is to help people who have
+difficultys with reading and those who are blind, the creater was going to record her own voice but relised 
+an audio recording would not update and put the new names in
+    <br><p id="story"><!--the id story is to help the name replacer know where to look for the name it is changing from-->
+    For example, Welcome, Leona!
+    <br><br></p>
+    <p>
+    Below are also two buttons you will find on all Chapters, 
+    once you have changed your name, click on the start reading button 
+    will read the story aloud to you, including your name.
+    <br><br>
+    <div>
+   <!--below are the beginnings of the code for the automatic reader this was also sourced from ChatGPT and referance in footer and report
+  the creater tried to finf help for this kind of code but couldnt find anything that worked, needed as part of
+   the stories design as it is to help people who have difficultys with reading and those who are blind, 
+   the creater was going to record her own voice but relised an audio recording would not update and put the new names in, 
+  bothe the reader and name replacer was part of the orginal design however the creater 
+underestimated how hard it would be to achive this code is still not to the standard teh creater appaired to
+as the name chager needs to be added onto each page but does still give that personal touch of adding the reader 
+into teh story-->
+    <button class="button1" id="startButton"><strong>Start Reading</strong></button>
+     <button class="button2" id="stopButton"><strong>Stop Reading</strong></button>
+    </div>
+    <br><br>
+    </p>
+    
+    <!--below is an image that starts of samll and becomes bigger and adds some charm to the home page,
+    the creater found she somethimes needed to add some styling into html and 
+  there was some difficulty getting some images placed in the middle of the page by adding
+it in html the desired out come was acheved -->
+      <div>
+        <center>
+          <img class="Cert1" src="image\5CT7Cert1.png" alt="Cert1" >
+        </center>
+      </div>
+</section>
+
+
+<!--bottom buttons for next and priously was created by the help of W3Schools ref in footer and report all styling for this 
+has been created ny the creater this was added to help the reader navigate to the next page 
+with ease and save the reader from going into the saide menu-->
+      <a href="6Chapter 5.html" class="previous round"><strong>&#8249;</strong></a>
+      <a href="2Chapter 1.html" class="next round"><strong>&#8250;</strong></a>
+
+
+      <!--the footer has been added to hold all the referances used on each page making the sources readly avalible
+      the footer used to be in a P devider  but changed to h6 so that it wouldnt interfer with the auto reader  -->
+  <footer>
+    <h6>
+    <strong>Student Number - P2668312</strong> <br><br>
+    <strong>Website Content Sources - </strong><!-- adding websites were found and used photos, video, audio and
+    text information to the footer to give credt and reference the original creators not
+    including websites used to convert to different formats will add in report.-->
+    <a class="ref" href="https://chat.openai.com/c/0eaa2250-0842-4411-aace-5ba34c8ee88e">JavaScript Auto Reader</a> /
+    <a class="ref" href="https://chat.openai.com/c/fea61a3f-679a-41b7-86c0-3811349da78b">Dynamic Word Replacement</a> /
+    <a class="ref" href="https://www.w3schools.com/howto/howto_css_next_prev.asp">Next & Previous navagation</a> /
+    <a class="ref" href="https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp">Side Bar Menu</a> /
+    <a class="ref" href="https://image.tmdb.org/t/p/original/v2XkVoW3FLszDKSfPn1VhTyb7xp.jpg">Original background</a> /
+    </h6>
+  </footer>
+</div>
+<script src="Javascript\script.js"></script>
+  </body>
+</html>
