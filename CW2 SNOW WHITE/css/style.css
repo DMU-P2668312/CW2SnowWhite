@@ -1,9 +1,9 @@
    /* CAPS HAVE BEEN USED TO DIVIDE THE CSS PAGE TO MAKE IT EASIER TO SEE WHAT IS LINKED TO EACH 
-   PAGE ALSO ANYTHING THAT HAS BEEN BORROWED FROM OTHER LEARING WEBSITE ARE 
-   IN CAPS TO LET READER KNOW THEY WILL BE REFERENCED IN FOOTER AND IN REPORT 
-   AND LOWER CASE TO SHOW THE CHAGES MADE TO THE HELPING WEBSITES CONTENT*/ 
+   PAGE ALSO ANYTHING THAT HAS BEEN BORROWED FROM OTHER LEARNING WEBSITES ARE 
+   IN CAPS TO LET THE READER KNOW THEY WILL BE REFERENCED IN THE FOOTER AND IN THE REPORT 
+   AND LOWERCASE TO SHOW THE CHANGES MADE TO THE HELPING WEBSITES CONTENT*/ 
 
-/* BELOW ARE STYLES LINKED TO ALL WEBPAGES SUCH AS MAIN BODY, TABS, NAV, TITLES ETC*/ 
+/* BELOW ARE STYLES LINKED TO ALL WEB PAGES SUCH AS THE MAIN BODY, TABS, NAV, TITLES ETC*/ 
   
 .background{
   background-image: url("../image/background.png");
@@ -14,7 +14,7 @@
 } 
 
 /* title/logo and menu styling,
-was made using photoshop and found a fount thatw as close to the orginal poster */
+was made using Photoshop and found a fount that as close to the original poster */
 img{
   display: block;
   margin-left: auto;
@@ -23,7 +23,7 @@ img{
   width: 80%;
 }
 
-/* the colurs used on teh website were chosen to match the background image
+/* the colours used on the website were chosen to match the background image
 while making it easy to read for the reader with the dark blue helping the fonts to stand out*/ 
 
 .tabs {
@@ -39,8 +39,8 @@ while making it easy to read for the reader with the dark blue helping the fonts
   padding: 1%;
   box-sizing: 80%;
   border: 3px solid GoldenRod;  
-  border-radius: 95px; /* the font below had to be referanced in to the styles as this is a private font 
-  but was used to match the title, referanced in report*/ 
+  border-radius: 95px; /* the font below had to be referred in to the styles as this is a private font 
+  but was used to match the title, referenced in report*/ 
     font-family: 'Heroe Pro';
     src: url('HeroePro.eot');
     src: local('Heroe Pro'), local('HeroePro'),
@@ -52,8 +52,8 @@ while making it easy to read for the reader with the dark blue helping the fonts
     font-style: normal;
 }
 
-/* the styling below was donr to match the colour design of the website
-adding a side menu instad of a static one helped with the over all fuction of the website for users*/ 
+/* the styling below was done to match the colour design of the website
+adding a side menu instead of a static one helped with the over all function of the website for users*/ 
 /* SIDE BAR helped by W3SCHOOLS ref in footer and report, style added/changed by the creator*/
 .sidebar {
   height: 100%;
