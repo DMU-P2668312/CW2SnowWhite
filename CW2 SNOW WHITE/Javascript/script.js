@@ -1,12 +1,12 @@
-// a javascript page was added so that the 
-// fuctions that are used on all pages are in one place and save repeating codes and 
-// making the code to big to load properly.
+//A javascript page was added so that the 
+//functions that are used on all pages are in one place and save repeating codes and 
+// making the code too big to load properly.
 
 
 
-// NAME CHANGER was sourced from ChatGPT this is referance on the footer and report, 
-// the creater take no credit for this only the styling is her own for this fuction
-// help was needed to learn how to achive this and the creater would continue to learn from teh sources she 
+// NAME CHANGER was sourced from ChatGPT; this is referenced on the footer and report, 
+//The creator take no credit for this; only the styling is her own for this function
+// help was needed to learn how to achieve this, and the creator would continue to learn from the sources she 
 //found and tried.
 // NAME CHANGER 
 document.addEventListener("DOMContentLoaded", function () {
@@ -39,9 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
-// AUTO READER FOR WEBSITE was sourced from ChatGPT this is referance on the footer and report, 
-// the creater take no credit for this only the styling is her own for this fuction
-// help was needed to learn how to achive this and the creater would continue to learn from teh sources she 
+// AUTO READER FOR WEBSITE was sourced from ChatGPT; this is referenced on the footer and report, 
+//The creator take no credit for this. Only the styling is her own for this function
+// help was needed to learn how to achieve this, and the creator would continue to learn from the sources she 
 //found and tried.
 // AUTO READER FOR WEBSITE
   // Get references to the buttons
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   }
 
-  // help for the page navagaters were found on w3schools
+  // help for the page navigators was found on w3schools
    // Start reading
   startButton.addEventListener("click", () => {
   isReading = true;
